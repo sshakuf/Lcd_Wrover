@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/sshakuf/.platformio/penv/bin:/Users/sshakuf/.platformio/penv:/Users/sshakuf/esp/xtensa-esp32-elf/bin:/usr/local/opt/opencv3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
