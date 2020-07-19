@@ -20,6 +20,8 @@ unsigned long testFilledTriangles();
 unsigned long testRoundRects();
 unsigned long testFilledRoundRects();
 
+void PutText(String inText, int x, int y, int inSize = 1, uint16_t inColor = WROVER_WHITE, uint16_t inBgColor = WROVER_BLACK);
+
 void InitializeTFT();
 
 #endif

@@ -347,3 +347,11 @@ unsigned long testFilledRoundRects()
 
     return micros() - start;
 }
+
+void PutText(String inText, int x, int y, int inSize, uint16_t inColor, uint16_t inBgColor)
+{
+    tft.setCursor(x, y);
+    tft.setTextColor(inColor, inBgColor);
+    tft.setTextSize(inSize);
+    tft.println(inText);
+}

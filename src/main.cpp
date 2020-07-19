@@ -8,6 +8,7 @@
 #include "soc/rtc_cntl_reg.h"
 
 #include <WiFi.h>
+#include "RestAPI.h"
 
 void setup()
 {
@@ -18,6 +19,7 @@ void setup()
   InitializeTFT();
 
   setupServer();
+  RegisterEvents(secureServer);
 
   Serial.println(F("Done!"));
 }
@@ -32,4 +34,3 @@ void loop(void)
     Serverloop();
   }
 }
-
